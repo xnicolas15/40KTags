@@ -117,8 +117,11 @@ body {
     align-items: center;
 }
 
-.member-profile img {
+.member-avatar {
     width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 @media (maxwidth: 600px) {
