@@ -70,6 +70,10 @@ body {
     color: var(--dark);
 }
 
+.nav-button:hover {
+    transform: scale(1.04);
+    box-shasow: 0 0 11px rgba(117, 18, 38, 0.55);
+
 .nav-button:visited{ 
     color: var(--pink);
 }
@@ -83,6 +87,7 @@ body {
 }
 
 .card {
+    display: block
     background-color: var(--charcoal);
     padding: 1.6rem;
     border-radius: 20px;
