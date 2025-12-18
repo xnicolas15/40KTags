@@ -48,7 +48,7 @@ body {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
     border-radius: 14px;
-    decoration: none
+    text-decoration: none
 }
 
 .nav-button.left { left: 0.75rem; }
