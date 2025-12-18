@@ -15,7 +15,15 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+@font-face {
+    font-family: 'Fira Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+}
+
 body {
+    font-family: 'Fira Mono', monospace;
     background-color: var(--dark);
     color: var(--silver);
     min-height: 100vh;
