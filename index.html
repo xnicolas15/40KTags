@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Page</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+      function goBack() {
+        if (window.history.length > 1) {
+          window.history.back();
+        } else {
+          window.location.href = 'index.html';
+        }
+      }
+    </script>
+
+  </head>
+  <body>
+
+    <header class="site-header">
+      <button class="nav-button left" onclick="goBack()">← Retour</button>
+      <h1>Titre de la page</h1>
+      <a href="index.html" class="nav-button right">Accueil</a>
+    </header>
+
+    <main class="card-container">
+      <a href="membre.html" class="card">
+        <h2>Équipe Alpha</h2>
+        <p>Primaris</p>
+      </a>
+
+      <a href="membre.html" class="card">
+        <h2>Équipe Beta</h2>
+        <p>Primaris</p>
+      </a>
+
+      <a href="membre.html" class="card">
+        <h2>Équipe Omega</h2>
+        <p>Primaris</p>
+      </a>
+    </main>
+
+  </body>
+</html>
