@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
 /* ===== VARIABLES ===== */
 :root {
     --dark: #141414;
@@ -12,12 +14,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Fira Mono', monospace;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
-
 body {
-    font-family: 'Fira Mono', monospace;
     background-color: var(--dark);
     color: var(--silver);
     min-height: 100vh;
