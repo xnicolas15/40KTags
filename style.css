@@ -3,6 +3,7 @@
     --dark: #141414;
     --charcoal: #1e1e1e;
     --red: #b11226;
+    --pink: ##EF6B7D;
     --silver: #e0e0e0;
 }
 
@@ -38,16 +39,27 @@ body {
     font-weight: 600;
 }
 
+.header-titles {
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    opacity: 0.75;
+    margin-top: 0.2rem;
+}
+
 .nav-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #0f0f0f;
+    background-color: var(--dark);
     border: none;
-    color: var(--silver);
+    color: var(--pink);
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
     border-radius: 14px;
+    text-decoration: none;
 }
 
 .nav-button.left { left: 0.75rem; }
@@ -56,6 +68,14 @@ body {
 .nav-button:active {
     background-color: var(--red);
     color: var(--dark);
+
+.nav-button:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 11px rgba(177, 18, 38, 0.55);
+}
+
+.nav-button:visited{ 
+    color: var(--pink);
 }
 
 /* ===== CARTES ===== */
