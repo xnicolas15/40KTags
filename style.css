@@ -3,7 +3,7 @@
     --dark: #141414;
     --charcoal: #1e1e1e;
     --red: #b11226;
-    --pink: ##EF6B7D;
+    --pink: #EF6B7D;
     --silver: #e0e0e0;
 }
 
@@ -12,7 +12,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif
+    font-family: 'Courier New', Courier, monospace;
+/* font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; */
 }
 
 body {
@@ -68,6 +69,7 @@ body {
 .nav-button:active {
     background-color: var(--red);
     color: var(--dark);
+}
 
 .nav-button:hover {
     transform: scale(1.04);
