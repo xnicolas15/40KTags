@@ -1,4 +1,33 @@
+/* ===== VARIABLES ===== */
 :root {
+    --dark: #141414;
+    --charcoal: #1e1e1e;
+    --red: #b11226;
+    --silver: #e0e0e0;
+}
+
+/* ===== RESET MINIMAL ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--silver);
+    min-height: 100vh;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
     background-color: var(--charcoal);
 }
@@ -18,7 +47,7 @@
     color: var(--silver);
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
-    border-radius: 12px;
+    border-radius: 14px;
 }
 
 .nav-button.left { left: 0.75rem; }
@@ -47,14 +76,13 @@
 }
 
 .card h2 {
-    color: var(--silver);
-    margin-bottom: 0.4rem;
     font-size: 1.2rem;
+    margin-bottom: 0.4rem;
 }
 
 .card p {
-    opacity: 0.85;
     font-size: 0.95rem;
+    opacity: 0.85;
 }
 
 .card:hover {
@@ -77,6 +105,6 @@
 
 .member-profile img {
     width: 180px;
-    height: 180px;
-    object-fit: cover;
+}
+
 }
