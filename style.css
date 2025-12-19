@@ -111,6 +111,7 @@ body {
 /* ===== PROFIL MEMBRE ===== */
 .member-profile {
     display: flex;
+    flex-direction: column;
     gap: 2rem;
     padding: 2rem;
     justify-content: center;
@@ -129,6 +130,19 @@ body {
         grid-template-columns: 1fr;
         padding: 1rem;
     }
+    
+}
+
+@media (min-width: 768px) {
+    .member-profile {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .member-info {
+        text-align: left;
+    }
+
 }
 
 
